@@ -10,7 +10,7 @@ baseurl: ""
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: ko
+lang: ko-KR
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
 timezone: Asia/Seoul
@@ -18,7 +18,7 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: TechNote # the main title
+title: "TechNote" # the main title
 
 tagline: 개인용 과학 노트 # it will display as the sub-title
 
@@ -26,13 +26,13 @@ description: >- # used by seo meta and the atom feed
   Personal academic blog for self-education in the field of science and engineering. 
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://doyunkim.github.io"
+url: "https://delve-master.github.io"
 
 github:
   username: delve-master # change to your github username
 
 twitter:
-  username: twitter_username # change to your twitter username
+  username: # twitter_username # change to your twitter username
 
 social:
   # Change to your full name.
@@ -41,8 +41,7 @@ social:
   email: logankim0913@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
+    - https://github.com/delve-master  # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
