@@ -1,11 +1,12 @@
 ---
-title: Hello Technote!
+layout: post
+title: Hello TechNote!
 date: 2023-03-25 08:18:12 
-categories: [computer science]
-tags: [firstpost]   # TAG names should always be lowercase!
+categories: ["computer science"]
+tags: ["first post"]   # TAG names should always be lowercase!
 ---
 
-# Welcome!  
+# Welcome!      
 
 Hello, everyone who might be watching this right now :)
 
