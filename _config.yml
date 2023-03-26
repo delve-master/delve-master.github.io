@@ -26,7 +26,7 @@ description: >- # used by seo meta and the atom feed
   Personal academic blog for self-education in the field of science and engineering. 
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ""
+url: "https://doyunkim.github.io"
 
 github:
   username: github_username # change to your github username
