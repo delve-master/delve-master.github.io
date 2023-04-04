@@ -18,7 +18,7 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: "TechNote" # the main title
+title: "Delve Laboratory" # the main title
 
 tagline: 개인용 과학 노트 # it will display as the sub-title
 
@@ -27,6 +27,8 @@ description: >- # used by seo meta and the atom feed
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://delve-master.github.io"
+
+future: true # set this to true if you want posts with future dates being processed
 
 github:
   username: delve-master # change to your github username
@@ -176,6 +178,9 @@ compress_html:
   blanklines: false
   ignore:
     envs: [development]
+
+plugins:
+  - jekyll-postfiles
 
 exclude:
   - "*.gem"
