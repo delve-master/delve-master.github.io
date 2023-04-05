@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Choosing which post to be visble
-published: true
 ---
 
 If you want to hide certain posts from being seen by the public, you can add the  `published` tag to the front matter of posts.
