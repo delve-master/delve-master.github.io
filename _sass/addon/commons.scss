@@ -7,10 +7,18 @@ html {
     &:not([data-mode]),
     &[data-mode='light'] {
       @include light-scheme;
+      #sidebar {
+        background-image: url(/assets/img/sidebar_image_light.jpg);
+        transition: background-image 0.25s ease-in-out;
+      }
     }
 
     &[data-mode='dark'] {
       @include dark-scheme;
+      #sidebar {
+        background-image: url(/assets/img/sidebar_image_dark.jpg);
+        transition: background-image 0.25s ease-in-out;
+      }
     }
   }
 
@@ -18,10 +26,18 @@ html {
     &:not([data-mode]),
     &[data-mode='dark'] {
       @include dark-scheme;
+      #sidebar {
+        background-image: url(/assets/img/sidebar_image_dark.jpg);
+        transition: background-image 0.25s ease-in-out;
+      }
     }
 
     &[data-mode='light'] {
       @include light-scheme;
+      #sidebar {
+        background-image: url(/assets/img/sidebar_image_light.jpg);
+        transition: background-image 0.25s ease-in-out;
+      }
     }
   }
 
