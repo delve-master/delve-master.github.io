@@ -20,7 +20,7 @@ timezone: Asia/Seoul
 
 title: "Delve Laboratory" # the main title
 
-tagline: 개인용 과학 노트 # it will display as the sub-title
+tagline: Welcome to my black magic lab :) # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   Personal academic blog for self-education in the field of science and engineering. 
