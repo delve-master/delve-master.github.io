@@ -1,42 +1,53 @@
 ---
 layout: post
-title: "오버피팅 문제"
+title: "오버피팅/과적합 문제"
 categories: ["computer science"]
 tags: ["machine learning", "machine learning specialization", "coursera"]   # TAG names should always be lowercase!
 published: false
----
-
-# 개요      
+---    
 
 귀하가 머신 러닝 모델을 학습시키려 한다고 가정하자. 귀하의 모델이 거듭된 학습끝에 주어진 학습 데이터에 완벽히 들어맞게되었다. 그럼 이 모델이 새로 추가된 데이터도 잘 예측할 수 있을까? 꼭 그런건 아닐 수 있다. 
 
 왜 그런지 **오버피팅** 또는 **과적합**의 개념을 통해 알아보자[^1]. 
 
-
-## 오버피팅(overfitting) 문제
+    
+# 오버피팅(overfitting) 문제
 
 머신러닝을 배울 때 흔히 사용하는 예시인 집값 예측을 해보자. x를 집의 크기로, y를 가격으로 둔 training data가 있다고 하고 이를 각기 다른 회귀(regression)로 학습시킨 모델 3가지를 보도록 하자. 
 
 ![Comparing different performance of linear regression models](overfitting_1.JPG)
 
-첫번째 모델은 단순한 선형 회귀로 학습되었다. 딱 봐도 데이터에 잘 들어맞지는 않는 모습을 보여준다. 
+첫번째 모델은 단순한 선형 회귀(linear regression)로 학습되었다. 딱 봐도 데이터에 잘 들어맞지는 않는 모습을 보여준다. 예측값과 실제값의 차이가 너무나도 크다. 이런 모델은 *편향(bias)이 높다*고 한다. 
 
-두번째 모델은 확실히 첫번째보다는 나은 모습을 보여준다. $x^2$과 가중치(weight) w이 추가되며 
+두번째 모델은 확실히 첫번째보다는 나은 모습을 보여준다. $x^2$과 가중치 $w_2$가 추가되며 2차 다항식 회귀 패턴을 가진 데이터에 어느정도 잘 맞는듯한 모습을 보여준다. 
 
-```python
-print("Hello, world!") 
-```
+세번째 모델은 주어진 데이터에 완벽히 맞아떨어지는 모습을 보여준다. 하지만 척봐도 뭔가 옳지 않다는 것을 알 수 있다. 우리는 집의 크기가 주어졌을 때 최대한 정확하게 가격 예측을 하는것이 목표이다. 그런데 세번째 모델은 집의 크기가 커졌는데 가격이 떨어지는 기이한 예측을 하고있다.[^2] 이런 모델은 *분산(variance)이 높다*고 한다. 예측이 중구난방이라는 얘기다. 이는 분류성(classification) 머신러닝에도 해당된다. 
 
-```java
-public static void main(String[] args) {
-    Console.log.printf("GoGart :>")
-}
-```
+![image_description](overfitting_2.JPG)
 
-### Photo Example
 
-![nani](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/640px-Image_created_with_a_mobile_phone.png)
+
+여기서 알 수 있는 사실은 명확하다. **학습 데이터를 완벽하게 맞출 수 있어도 미래에 받아들일 데이터를 예측하는 것은 별개의 문제이다.** 분산이 높은 모델은 아무리 학습시켜도 학습 데이터에만 맞춰질 뿐, 우리가 실제로 예측하고자 하는 데이터에는 적응하지 못하고 오답을 뱉어낼 것이다. 시험은 완벽하게 볼 수 있지만 실전에서는 허우적대는 상황인 것이다. 
+
+## 해결법
+
+오버피팅 문제를 해결하는 방법에는 주로
+- 더 많은 학습 데이터 수집
+- 일부 특징(feature)의 제거
+- 
+
+가장 좋은 해결법은 **더 많은 학습 데이터**를 모아서 모델을 학습시키는 것이다. 
+
+![image_description](ex_1.JPG)
+
+데이터가 쌓이면 쌓일수록 모델의 지나치던 가중치가 조절되며 정상화되는것을 볼 수 있다.
+하지만 항상 더 많은 데이터를 수집하는 것이 가능한 것은 아니다. 
+
+
+
 
 ---
 
 [^1]: 본 포스팅은 Coursera 플랫폼에서 스탠포드 대학교가 주관하는 *Machine Learning Specialization* 온라인 강의에서 발췌한 내용을 포함합니다. 
+
+[^2]: 물론 현실에서는 집의 크기가 커져도 집값이 떨어질 수 있다. 그러나 우리가 현재 고려하는 것이 집의 크기 단 하나이므로 집의 크기가 커질수록 집의 가격이 올라가야 하는것은 당연하다. 
