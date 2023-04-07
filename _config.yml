@@ -181,6 +181,7 @@ compress_html:
 
 plugins:
   - jekyll-postfiles
+  - jekyll-spaceship
 
 exclude:
   - "*.gem"
