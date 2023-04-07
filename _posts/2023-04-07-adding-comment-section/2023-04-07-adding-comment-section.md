@@ -1,7 +1,7 @@
 ---
 title: "블로그 포스팅에 댓글 기능 추가하기 (ft. Giscus)"
 date: 2023-04-07 17:19:00 +0900
-categories: ["tutorial", "IT"]
+categories: ["IT"]
 tags: ["giscus", "jekyll"]
 ---
 
