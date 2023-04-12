@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 공개 포스팅 / 비공개 포스팅 설정하기
+title: Jekyll 공개 포스팅 / 비공개 포스팅 설정하기
 categories: ["IT"]
 tags: ["jekyll"]
 ---
