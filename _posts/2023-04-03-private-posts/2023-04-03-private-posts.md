@@ -21,3 +21,4 @@ published: false  # 공개 상태로 전환 시 true로
 
 `published` 태그가 `false`로 설정된 포스팅은 블로그에 나타나지 않는다! 물론 `true`로 바꾸면 다시 나타난다. 
 
+(*end of post*)
