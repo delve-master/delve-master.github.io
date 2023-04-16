@@ -58,6 +58,14 @@ h1 + .post-meta {
   }
 }
 
+p {
+  line-height: 2.0em;
+}
+
+p + p {
+  margin-top: 1.5em;
+}
+
 .post-tail-wrapper {
   margin-top: 6rem;
   border-bottom: 1px double var(--main-border-color);
