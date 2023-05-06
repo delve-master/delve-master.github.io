@@ -1,8 +1,8 @@
 ---
 title: "공개 Github 리포지토리 비공개로 복사하기"
 date: 2023-05-01 22:38:00 +0900
-categories: ["computer science"]
-tags: ["github", "know-how"]
+categories: ["IT", "github"]
+tags: ["tutorial", "git"]
 ---
 
 > 이 포스팅은 stack overflow에 올라온 ["GitHub: How to make a fork of public repository private?"에 달린 답변](https://stackoverflow.com/questions/10065526/github-how-to-make-a-fork-of-public-repository-private/30352360#30352360)에서 발췌한 내용을 포함하고 있습니다.
