@@ -1,8 +1,8 @@
 ---
 title: "[Building Web Applications in PHP] - 동적 웹 페이지의 구성과 작동원리"
 date: 2023-05-07 18:36:00 +0900
-categories: ["강의 노트", "Web Applications for Everybody"]
-tags: ["web", "coursera"]
+categories: ["Web Development", "php"]
+tags: ["web", "coursera", "web applications for everybody"]
 ---
 
 > 이 포스팅은 Charles Severance 교수(이하 척 아저씨)의 Coursera 강의 ["Building Web Applications in PHP"](https://www.coursera.org/learn/web-applications-php) Week 1 에서 다룬 내용을 정리합니다.
