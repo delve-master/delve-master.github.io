@@ -1,3 +1,18 @@
 /*
   Appending custom SCSS variables will override the default ones in `_sass/addon/variables.scsss`
 */
+
+.warning {
+  border-left: 5px solid rgba(255, 145, 0, 1);
+  background-color: rgb(255, 190, 105);
+  color: black;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.caption {
+  text-align: center;
+  font-size: 12px;
+  font-style: italic;
+  margin-top: -20px;
+}
