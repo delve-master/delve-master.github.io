@@ -801,7 +801,7 @@ $sidebar-display: 'sidebar-display';
       font-weight: 900;
       font-size: 1.5rem;
       letter-spacing: 0.5px;
-      color: rgba(134, 133, 133, 0.99);
+      color: var(--sidebar-title-color);
     }
   }
 
@@ -1796,18 +1796,4 @@ $sidebar-display: 'sidebar-display';
     } /* .sidebar-bottom */
   } /* #sidebar */
   
-  .warning {
-    border-left: 5px solid rgba(255, 145, 0, 1);
-    background-color: rgb(255, 190, 105);
-    color: black;
-    padding: 10px;
-    margin: 10px 0;
-  }
-
-  .caption {
-    text-align: center;
-    font-size: 12px;
-    font-style: italic;
-    margin-top: -20px;
-  }
 } /* min-width: 1650px */
