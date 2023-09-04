@@ -3,6 +3,9 @@ title: "[Introduction to Structured Query Language] - 데이터베이스"
 date: 2023-09-4 15:33:00 +0900
 categories: ["강의 노트", "Web Applications for Everybody"]
 tags: ["web", "coursera"]
+image: 
+    path: database-overview.jpg
+    alt: Introduction to Structured Query Language - Overview of Databases
 ---
 
 > 이 포스팅은 Charles Severance 교수(이하 척 아저씨)의 Coursera 강의 ["Introduction to Structured Query Language"](https://www.coursera.org/learn/intro-sql) Week 2 에서 다룬 내용을 정리합니다.
@@ -63,6 +66,7 @@ HDD는 평상시에 회전하다가 특정 데이터를 읽거나 쓸 때 헤드
 
 
 ![Alt text](juQyOVwuEee8pAru5GvQag~WcA2c~26727029~435460.png)
+_sequential update vs. random access_
 
 이게 가능한 이유는 HDD에는 데이터의 위치를 알려주는 목차(index)가 포함되어 있어서인데, 이를 이용해 수정하고자 하는 데이터가 위치한 장소를 찾을 수 있다. 
 
