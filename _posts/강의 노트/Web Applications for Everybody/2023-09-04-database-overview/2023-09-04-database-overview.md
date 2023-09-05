@@ -11,6 +11,7 @@ image:
 > 이 포스팅은 Charles Severance 교수(이하 척 아저씨)의 Coursera 강의 ["Introduction to Structured Query Language"](https://www.coursera.org/learn/intro-sql) Week 2 에서 다룬 내용을 정리합니다.
 {: .prompt-info }
 
+
 컴퓨터라는게 발명된 순간부터 우리는 수많은 분야에 이를 사용했다. 그런데 일기예보, 각종 시뮬레이션, 게임 등의 작업을 하다보면 어느 순간부터 결과값이나 기타 정보들을 어딘가에 저장할 필요가 생긴다. 
 
 
