@@ -1,5 +1,5 @@
 ---
-title: "[Introduction to Structured Query Language] - MySQL 기본"
+title: "[Introduction to Structured Query Language] - 기본적인 SQL 쿼리 실행해보기"
 date: 2023-09-05 19:33:00 +0900
 categories: ["강의 노트", "Web Applications for Everybody"]
 tags: ["web", "coursera"]
