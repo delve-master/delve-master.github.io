@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "오버피팅/과적합 문제"
-categories: ["computer science"]
+title: "[Machine Learning Specialization] - 오버피팅/과적합 문제"
+categories: ["강의 노트", "Machine Learning Specialization"]
 tags: ["machine learning", "machine learning specialization", "coursera"]   # TAG names should always be lowercase!
 published: true
 ---    
