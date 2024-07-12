@@ -10,16 +10,16 @@ Anaconda나 Miniconda는 주로 파이썬 환경 (*environment*) 을 관리할 �
 이번 포스팅에서는 Miniconda를 이용해 이런 파이썬 env를 구축해보자.
 
 - [Miniconda 설치](#miniconda-설치)
-  - [dfasdsf](#dfasdsf)
-- [dd](#dd)
+  - [TESTTT](#testtt)
+- [TEST](#test)
 
 
 ## Miniconda 설치
 우선 Miniconda의 공식 홈페이지 (https://docs.conda.io/projects/miniconda/en/latest/miniconda-install.html)에서 installer를 다운받자. 다운이 끝나면 .exe 파일을 실행해 installer의 안내에 따라 Miniconda를 설치하면 된다. 설정 관련해서 모르는 부분이 있으면 일단 default를 따라가면 된다. 필요하면 나중에 변경할 수 있다. 
 
-### dfasdsf
+### TESTTT
 
-## dd
+## TEST
 
 (*end of post*)
 
